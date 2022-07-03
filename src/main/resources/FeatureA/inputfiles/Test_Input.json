@@ -1,0 +1,19 @@
+{
+	"products": [
+		{
+			"UID": "Product1",
+			"USERNAME": "admin",
+			"PASSWORD": "admin1",
+			"URL": "https://www.stealmylogin.com/demo.html",
+			"PRODUCT-VERSION": "1.3.231"
+		},
+		{
+			"UID": "Product2",
+			"USERNAME": "super",
+			"PASSWORD": "superadmin1",
+			"URL": "https://www.stealmylogin.com/demo.html",
+			"PRODUCT-VERSION": "2.3.231",
+			"Automation-Rest-port": 8080
+		}
+	]
+}

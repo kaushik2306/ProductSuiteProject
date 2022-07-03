@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1">
+<parameter name="inputFilePath" value="C:\workspace\ProductSuiteProject\src\main\resources\FeatureA\inputfiles\Test_Input.json"/>
+	<test name="Test-1">
+		<classes>
+			<class name="com.test.api.testingapi.TestApi">
+				<methods>
+					<include name="login">
+						<parameter name="productUID" value="Product1 # Product2"/>
+					</include>
+					<include name="logout">
+						<parameter name="productUID" value="Product1 # Product2"/>
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
